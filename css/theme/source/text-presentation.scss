@@ -1,0 +1,18 @@
+.reveal-viewport {
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: 0px auto;
+	overflow: hidden;
+}
+.reveal {
+	font-size: 64px;
+	color: white;
+	//-webkit-text-fill-color: white;
+	//-webkit-text-stroke-width: 0.1em;
+	//-webkit-text-stroke-color: black;
+
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}

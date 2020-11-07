@@ -9,32 +9,37 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
-
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<link rel="stylesheet" href="dist/theme/text-presentation.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>23 Als sie aber entlassen waren, kamen sie zu den Ihren und verkündeten alles, was die Hohenpriester und die Ältesten zu ihnen gesagt hatten. </section>
+				<section>24 Sie aber, als sie es hörten, erhoben einmütig ihre Stimme zu Gott und sprachen: Herrscher, du, der du den Himmel und die Erde und das Meer gemacht hast und alles, was in ihnen ist; </section>
+				<section>25 der du durch den Heiligen Geist durch den Mund unseres Vaters, deines Knechtes David, gesagt hast: "Warum tobten die Nationen und sannen Eitles die Völker? </section>
+				<section>26 Die Könige der Erde standen auf und die Fürsten versammelten sich gegen den Herrn und seinen Gesalbten." </section>
+				<section>27 Denn in dieser Stadt versammelten sich in Wahrheit gegen deinen heiligen Knecht Jesus, den du gesalbt hast, sowohl Herodes als auch Pontius Pilatus mit den Nationen und den Völkern Israels, </section>
+				<section>28 alles zu tun, was deine Hand und dein Ratschluss vorherbestimmt hat, dass es geschehen sollte. </section>
+				<section>29 Und nun, Herr, sieh an ihre Drohungen und gib deinen Knechten, dein Wort mit aller Freimütigkeit zu reden; </section>
+				<section>30 indem du deine Hand ausstreckst zur Heilung, dass Zeichen und Wunder geschehen durch den Namen deines heiligen Knechtes Jesus. </section>
+				<section>31 Und als sie gebetet hatten, bewegte sich die Stätte, wo sie versammelt waren; und sie wurden alle mit dem Heiligen Geist erfüllt und redeten das Wort Gottes mit Freimütigkeit.</section>
 			</div>
 		</div>
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				width: 1920,
+				height: 500,
+				margin: 0,
+				minScale: 0.1,
+				maxScale: 5.0,
+				plugins: [ RevealNotes ]
 			});
 		</script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="node_modules/reveal-notes-server/client.js"></script>
 	</body>
 </html>
