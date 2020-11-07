@@ -1,5 +1,5 @@
 .reveal-viewport {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   margin: 0px auto;
   overflow: hidden; }
 
@@ -7,3 +7,5 @@
   font-size: 64px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  .reveal .slides {
+    text-align: left; }
